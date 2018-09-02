@@ -873,7 +873,7 @@ Schauen wir, was passiert, wenn wir die Datei ausführen:
 Falls das nicht funktionert hat, keine Panik! Die Ausgabe wird dir dabei helfen, herauszufinden wieso:
 
 - Wenn du einen `NameError` erhältst, hast du dich vermutlich irgendwo im Code vertippt. Prüfe also, ob du bei der Funktionsdefinition `def hallo():` und beim Funktionsaufruf `hallo()` den Funktionsnamen gleich geschrieben hast.
-- Wenn du einen `IndentationError` bekommst, prüfe, ob beide `print`-Zeilen die gleichen Whitespaces am Zeilenanfang haben: Python will den ganzen Code in einer Funktion hübsch ausgerichtet haben.
+- Wenn du einen `IndentationError` bekommst, prüfe, ob beide `print`-Zeilen die gleichen Leerzeichen am Zeilenanfang haben: Python will den ganzen Code in einer Funktion hübsch ausgerichtet haben.
 - Wenn du gar keine Ausgabe erhältst, stelle sicher, dass `hallo()` am Datei-Ende *nicht* eingerückt ist. Wenn es eingerückt ist, ist dieser Aufruf selbst Teil der Funktion und sie wird gar nicht ausgeführt.
 
 Das war einfach! Als Nächstes bauen wir Funktionen mit sogenannten Argumenten. Wir werden das gerade gebaute Beispiel benutzen – eine Funktion, die die ausführende Person begrüßt – aber diesmal mit Namen:
